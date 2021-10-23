@@ -22,27 +22,35 @@ NetThingsOS uses OpenEmbedded build systems.
 Dependencies:   
 TBD  
 
-To build it make a following comants (for ubuntu 20.4)  
+To build the NetThingsOS for qemu emulator, make a following commands (for ubuntu 20.4)  
+source ./oe-init-build-env build_qemu   
+bitbake netthingsos-0-1  
 
 
+The quide how to build NetThingsOS for other platforms will be added later. 
 
 
-========================================================================  
+======================================================================  
+Run builded image for qemu using this command:  
+runqemu qemux86-64  
+
+========================================================================    
 Installation guide  
 TBD
 
 
 ========================================================================  
 Roadmap:  
-Mosqitto
-IoT gateway
-LoRaWAN server
-Intergartion layer
-NTP
-Claud based IoT platform integration
-Helth monitoring
-Local data storage
-WEB interface
+Mosqitto  
+IoT gateway  
+LoRaWAN server  
+Intergartion layer  
+NTP  
+Claud based IoT platform integration  
+Helth monitoring  
+Local data storage  
+WEB interface  
+Hardware integration  
 
 
 
