@@ -41,5 +41,6 @@ GLIBC_GENERATE_LOCALES = "en_GB.UTF-8 en_US.UTF-8 ru_RU.UTF-8"
 IMAGE_LINGUAS = "ru-ru en-gb en-us"
 IMAGE_ROOTFS_EXTRA_SPACE = "1048576"
 
+
 DEPENDS = "zip-native python3-pip-native"
 inherit core-image module-base setuptools3
