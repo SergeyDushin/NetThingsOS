@@ -23,7 +23,7 @@ Dependencies:
 TBD  
 
 To build the NetThingsOS for qemu emulator, make a following commands (for ubuntu 20.4)  
-source ./oe-init-build-env build_qemu   
+source ./oe-init-build-env build-qemu   
 bitbake netthingsos-0-1  
 
 
