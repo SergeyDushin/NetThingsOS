@@ -4,7 +4,7 @@ An opensource Linux based operation system for managing IoT systems and networks
 
 ======================================================================  
 Project site:  
-TBD  
+http://netthingsos.org
 
 =======================================================================  
 short description:  
