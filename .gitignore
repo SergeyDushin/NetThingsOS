@@ -1,19 +1,19 @@
 # files for qemu build 
-fw-distro/build-qemu/downloads
+NetThingsOS-tools/build-qemu/downloads
 
-fw-distro/build-qemu/tmp-glibc
+NetThingsOS-tools/build-qemu/tmp-glibc
 
-fw-distro/build-qemu/tmp-glibc-glibc
+NetThingsOS-tools/build-qemu/tmp-glibc-glibc
 
-fw-distro/build-qemu/sstate-cache
+NetThingsOS-tools/build-qemu/sstate-cache
 
-fw-distro/build-qemu/cache
+NetThingsOS-tools/build-qemu/cache
 
-fw-distro/build-qemu/*.log
+NetThingsOS-tools/build-qemu/*.log
 
-fw-distro/build-qemu/*.lock
+NetThingsOS-tools/build-qemu/*.lock
 
-fw-distro/build-qemu/*.sock
+NetThingsOS-tools/build-qemu/*.sock
 
 
 

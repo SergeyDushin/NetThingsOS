@@ -1,4 +1,4 @@
-SUMMARY = "NetThingsOS ditro"
+SUMMARY = "NetThingsOS is a distribusion for managing IoT systems on the local side of  distributed IoT systems"
 
 
 #PN="NetThingsOS"
@@ -12,10 +12,27 @@ IMAGE_INSTALL += " packagegroup-core-boot packagegroup-base \
 
 
 #
-# Install packages
+# Installed packages
 #
 IMAGE_INSTALL_append+= " busybox"
 IMAGE_INSTALL_append+= " mosquitto"
+IMAGE_INSTALL_append+= "zip"
+IMAGE_INSTALL_append+= "sudo"
+IMAGE_INSTALL_append+= "man-pages"
+IMAGE_INSTALL_append+= "iputils"
+IMAGE_INSTALL_append+= "inetutils"
+IMAGE_INSTALL_append+= "iproute2"
+IMAGE_INSTALL_append+= "bind"
+IMAGE_INSTALL_append+= "collectd"
+IMAGE_INSTALL_append+= "glibc-utils localedef"
+IMAGE_INSTALL_append+= "mailx"
+IMAGE_INSTALL_append+= "net-tools"
+IMAGE_INSTALL_append+= "cronie"
+IMAGE_INSTALL_append+= "curl"
+IMAGE_INSTALL_append+= "coreutils"
+IMAGE_INSTALL_append+= "monit"
+IMAGE_INSTALL_append+= "ntp"
+IMAGE_INSTALL_append+= "thingsboard-gateway"
 
 
 DISTRO_FEATURES_LIBC = "libc-locales libc-locale-code"
