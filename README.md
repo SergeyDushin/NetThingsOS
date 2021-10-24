@@ -34,14 +34,22 @@ The quide how to build NetThingsOS for other platforms will be added later.
 Run builded image for qemu using this command:  
 runqemu qemux86-64  
 
+
+
 ========================================================================    
 Installation guide  
-TBD
+TBD  
+
+
+
+=======================================================================
+packages installed:  
+Mosquitto  
+
 
 
 ========================================================================  
 Roadmap:  
-Mosqitto  
 IoT gateway  
 LoRaWAN server  
 Intergartion layer  

@@ -15,7 +15,7 @@ IMAGE_INSTALL += " packagegroup-core-boot packagegroup-base \
 # Install packages
 #
 IMAGE_INSTALL_append+= " busybox"
-
+IMAGE_INSTALL_append+= " mosquitto"
 
 
 DISTRO_FEATURES_LIBC = "libc-locales libc-locale-code"
