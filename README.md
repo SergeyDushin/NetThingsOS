@@ -1,4 +1,4 @@
-======================================================================
+======================================================================   
 Short description:  
 NetThingsOS is an opensource Linux based operation system (Linux distribution) 
 for managing IoT systems and networks on-premises side. 
@@ -17,10 +17,12 @@ https://netthingsos.org
 
 Sergey Dushin, nihsuds@gmail.com
 (c) 2021 by SDlab https://sdlab-co.ru/
-======================================================================
+
+======================================================================  
 The status:
 under development (no stable version avalable)
-=======================================================================  
+
+=======================================================================     
 
 The system provides folowing main features:  
 1. MQTT server/broker  
@@ -34,7 +36,7 @@ The system provides folowing main features:
 9. Time and location services  
 10. System helth monitoring and hardware reservation  
 
-========================================================================  
+========================================================================    
 Build guide  
 NetThingsOS uses OpenEmbedded build systems.   
 
@@ -61,7 +63,7 @@ TBD
 
 
 
-=======================================================================
+=======================================================================  
 Packages installed:  
 Mosquitto  
 IoT gateway  
@@ -69,7 +71,7 @@ IoT gateway
 
 
 
-========================================================================  
+========================================================================     
 Roadmap:  
 LoRaWAN server  
 Intergartion layer  
@@ -80,5 +82,5 @@ Local data storage
 WEB interface  
 Hardware integration  
 
-========================================================================
+========================================================================  
 
