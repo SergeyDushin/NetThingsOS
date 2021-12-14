@@ -1,14 +1,26 @@
+======================================================================
+Short description:  
+NetThingsOS is an opensource Linux based operation system (Linux distribution) 
+for managing IoT systems and networks on-premises side. 
+
+NetThingsOS is a turn-key solution for building the reliable industrial or consumer 
+IoT networks where the stable, real-time and secure data collection and 
+end devices management are required.
+
+The system is specially designed for installation on embedded hardware, 
+small servers or network platforms.  It is managed both from Linux CLI 
+or from WEB interface (WEB in not impleneted at the moment).
+
 ======================================================================  
 Project site:  
 https://netthingsos.org
 
+Sergey Dushin, nihsuds@gmail.com
+(c) 2021 by SDlab https://sdlab-co.ru/
+======================================================================
 The status:
 under development (no stable version avalable)
-
 =======================================================================  
-Short description:  
-NetThingsOS is an opensource Linux based operation system for managing IoT systems and networks on-premises side.   
-
 
 The system provides folowing main features:  
 1. MQTT server/broker  
@@ -21,12 +33,6 @@ The system provides folowing main features:
 8. Running on different ARM and AMD based platforms  
 9. Time and location services  
 10. System helth monitoring and hardware reservation  
-
-The system is specially designed for installation on embedded hardware, small servers or network platforms.  
-It is managed both from Linux CLI or from WEB interface (WEB in not impleneted at the moment)  
-
-
-
 
 ========================================================================  
 Build guide  
@@ -56,7 +62,7 @@ TBD
 
 
 =======================================================================
-packages installed:  
+Packages installed:  
 Mosquitto  
 IoT gateway  
 
@@ -74,6 +80,5 @@ Local data storage
 WEB interface  
 Hardware integration  
 
-
-
+========================================================================
 
