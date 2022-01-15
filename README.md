@@ -5,7 +5,7 @@ for managing IoT systems and networks on-premises side.
 
 NetThingsOS is a turn-key solution for building the reliable industrial or consumer 
 IoT networks where the stable, real-time and secure data collection and 
-end devices management are required.
+end-devices management are required.
 
 The system is specially designed for installation on embedded hardware, 
 small servers or network platforms.  It is managed both from Linux CLI 
@@ -13,18 +13,23 @@ or from WEB interface (WEB in not impleneted at the moment).
 
 ======================================================================  
 Project site:  
-https://netthingsos.org
-
-Sergey Dushin, nihsuds@gmail.com
-(c) 2021 by SDlab https://sdlab-co.ru/
-
+https://sdlab-co.ru/netthingsos/ (main)  
+https://netthingsos.org (under development)  
+  
+Contacts:  
+Sergey Dushin  
+nihsuds@gmail.com  
+s.dushin@sdlab-co.ru  
+  
+(c) 2021 by SDlab https://sdlab-co.ru/  
+  
 ======================================================================  
-The status:
-under development (no stable version avalable)
-
+The status:  
+under development (no stable version available)  
+  
 =======================================================================     
 
-The system provides folowing main features:  
+The system provides following main features (planning in first stable release):  
 1. MQTT server/broker  
 2. IoT gateway services based on ThingsBoard IoT gateway  
 3. Relibale conenction to the cloud based platforms with uplink channel reservation  
@@ -35,8 +40,15 @@ The system provides folowing main features:
 8. Running on different ARM and AMD based platforms  
 9. Time and location services  
 10. System helth monitoring and hardware reservation  
+   
+========================================================================      
+Roadmap:  
 
-========================================================================    
+please, see https://sdlab-co.ru/netthingsos/roadmap/  
+  
+  
+========================================================================   
+  
 Build guide  
 NetThingsOS uses OpenEmbedded build systems.   
 
@@ -48,7 +60,7 @@ source ./oe-init-build-env build-qemu
 bitbake netthingsos-0-1  
 
 
-The quide how to build NetThingsOS for other platforms will be added later. 
+The quide how to build NetThingsOS for other platforms will be added later.   
 
 
 ======================================================================  
@@ -63,24 +75,5 @@ TBD
 
 
 
-=======================================================================  
-Packages installed:  
-Mosquitto  
-IoT gateway  
 
-
-
-
-========================================================================     
-Roadmap:  
-LoRaWAN server  
-Intergartion layer  
-NTP  
-Claud based IoT platform integration  
-Helth monitoring  
-Local data storage  
-WEB interface  
-Hardware integration  
-
-========================================================================  
 

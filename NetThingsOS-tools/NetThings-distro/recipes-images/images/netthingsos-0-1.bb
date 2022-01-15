@@ -1,4 +1,4 @@
-SUMMARY = "NetThingsOS is a distribusion for managing IoT systems on the local side of  distributed IoT systems"
+SUMMARY = "NetThingsOS is a distro for managing IoT systems on the local side of  distributed IoT systems"
 
 
 #PN="NetThingsOS"
