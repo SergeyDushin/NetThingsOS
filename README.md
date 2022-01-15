@@ -24,13 +24,10 @@ s.dushin@sdlab-co.ru
 (c) 2021 by SDlab https://sdlab-co.ru/  
   
 ======================================================================  
-
-***********************STATUS***************************************  
+                         STATUS:
    
 Under development (no stable version available)  
-  
-  
-************************END_OF_STATUS*******************************  
+
 =======================================================================     
 
 The system provides following main features (planning in first stable release):  
