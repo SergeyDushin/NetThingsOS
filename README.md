@@ -12,7 +12,7 @@ small servers or network platforms.  It is managed both from Linux CLI
 or from WEB interface (WEB in not impleneted at the moment).
 
 ======================================================================  
-Project site:  
+Project sites:  
 https://sdlab-co.ru/netthingsos/ (main)  
 https://netthingsos.org (under development)  
   
@@ -24,9 +24,13 @@ s.dushin@sdlab-co.ru
 (c) 2021 by SDlab https://sdlab-co.ru/  
   
 ======================================================================  
-The status:  
-under development (no stable version available)  
+
+*********************** STATUS ***************************************  
+   
+Under development (no stable version available)  
   
+  
+************************ END OF STATUS *******************************  
 =======================================================================     
 
 The system provides following main features (planning in first stable release):  
@@ -36,7 +40,7 @@ The system provides following main features (planning in first stable release):
 4. Connection to the several IoT platforms  
 5. Local data storage  
 6. Custom data processing  
-7. Network security features to protect the IoT system amnd data  
+7. Network security features to protect the IoT system and data  
 8. Running on different ARM and AMD based platforms  
 9. Time and location services  
 10. System helth monitoring and hardware reservation  
@@ -50,21 +54,24 @@ please, see https://sdlab-co.ru/netthingsos/roadmap/
 ========================================================================   
   
 Build guide  
-NetThingsOS uses OpenEmbedded build systems.   
+NetThingsOS uses OpenEmbedded build system.   
 
 Dependencies:   
 TBD  
 
+
+Qemu:
 To build the NetThingsOS for qemu emulator, make a following commands (for ubuntu 20.4)  
 source ./oe-init-build-env build-qemu   
 bitbake netthingsos-0-1  
 
 
-The quide how to build NetThingsOS for other platforms will be added later.   
+
+The guide how to build NetThingsOS for other platforms will be added later.   
 
 
 ======================================================================  
-Run builded image for qemu using this command:  
+Run the built image for qemu using this command:  
 runqemu qemux86-64  
 
 
